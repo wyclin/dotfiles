@@ -116,3 +116,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH="/usr/local/heroku/bin:$PATH"
 
 alias rm="rm -i"
+
+# Enable git autocomplete script.
+# Download from https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+
+source ~/dotfiles/git-completion.bash
+
